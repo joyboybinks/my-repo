@@ -1,7 +1,8 @@
-package main
+package main 
 
-import "fmt"
-
-func main() {
-    fmt.Println("✅ Go est bien installé et fonctionne !")
+func PrintIfNot(str string) string {
+    if len(str) < 3 {
+        return "G\n"
+    }
+    return "invalid Input\n"
 }
